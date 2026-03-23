@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.douyin.autopay">
+
+    <application
+        android:label="抖音自动下单"
+        android:icon="@mipmap/ic_launcher">
+        
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="抖音自动下单插件" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+    </application>
+</manifest>
